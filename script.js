@@ -36,10 +36,6 @@ const totalIncome = document.getElementById("total-income");
 const totalExpense = document.getElementById("total-expense");
 const totalBalance = document.getElementById("total-balance");
 
-const sideIncome = document.getElementById("side-income");
-const sideExpense = document.getElementById("side-expense");
-const sideBalance = document.getElementById("side-balance");
-
 function updateHeaderDate() {
   const today = new Date();
   const day = String(today.getDate()).padStart(2, "0");
@@ -50,7 +46,7 @@ function updateHeaderDate() {
     dateRange.textContent = `Today: ${day} ${month} ${year}`;
   }
 }
-  
+
 function updateTotals() {
   let income = 0;
   let expense = 0;
@@ -73,10 +69,6 @@ function updateTotals() {
   if (totalIncome) totalIncome.textContent = formattedIncome;
   if (totalExpense) totalExpense.textContent = formattedExpense;
   if (totalBalance) totalBalance.textContent = formattedBalance;
-
-  if (sideIncome) sideIncome.textContent = formattedIncome;
-  if (sideExpense) sideExpense.textContent = formattedExpense;
-  if (sideBalance) sideBalance.textContent = formattedBalance;
 }
 
 const searchInput = document.getElementById("search-input");

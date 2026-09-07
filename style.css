@@ -6,7 +6,7 @@
   --bg-sidebar: #0F172A;
   --sidebar-text: #94A3B8;
   --sidebar-active-bg: #2563EB;
-  --sidebar-summary-bg: #1E293B;
+
   --card-bg: #FFFFFF;
   --border-color: #E2E8F0;
   --text-primary: #0F172A;
@@ -126,55 +126,8 @@ body {
   box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
 }
 
-.summary-card {
-  background-color: var(--sidebar-summary-bg);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-md);
-  padding: 16px;
-  margin-top: 50px;
-}
 
-.summary-card h3 {
-  font-size: 14px;
-  font-weight: 600;
-  color: #FFFFFF;
-  margin-bottom: 12px;
-}
 
-.summary-row {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 8px;
-}
-
-.summary-row.border-top {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding-top: 10px;
-  margin-bottom: 0;
-}
-
-.summary-row .label {
-  font-size: 12px;
-  color: var(--sidebar-text);
-  margin-bottom: 2px;
-}
-
-.summary-row .value {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.summary-row .income-val {
-  color: #4ADE80;
-}
-
-.summary-row .expense-val {
-  color: #F87171;
-}
-
-.summary-row .balance-val {
-  color: #60A5FA;
-}
 
 .main {
   flex: 1;

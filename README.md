@@ -74,7 +74,7 @@ A sleek, feature-rich expense tracker built with pure **HTML**, **CSS**, and **J
     <td width="50%">
 
 ### 🎨 UI & UX
-- **Dark sidebar** with financial summary
+- **Dark sidebar** with navigation and quick actions
 - **Responsive design** — works on desktop, tablet, and mobile
 - Smooth **transitions** and **hover effects**
 - **Category badges** with color coding
@@ -98,9 +98,8 @@ A sleek, feature-rich expense tracker built with pure **HTML**, **CSS**, and **J
 │  │             │  │  ┌─────────────────────────────┐   │ │
 │  │  • Logo     │  │  │       Metric Cards          │   │ │
 │  │  • Nav      │  │  │  (Income/Expense/Balance)   │   │ │
-│  │  • Summary  │  │  └─────────────────────────────┘   │ │
-│  │  • Clear    │  │  ┌──────────┐ ┌────────────────┐   │ │
-│  │    All      │  │  │  Table   │ │  Chart Panel   │   │ │
+│  │  • Clear    │  │  └─────────────────────────────┘   │ │
+│  │    All      │  │  ┌──────────┐ ┌────────────────┐   │ │
 │  │             │  │  │  Panel   │ │  + Add Form    │   │ │
 │  └─────────────┘  │  └──────────┘ └────────────────┘   │ │
 │                   └───────────────────────────────────┘  │
@@ -288,7 +287,7 @@ The app adapts seamlessly across all screen sizes:
 | **> 1200px** | Full sidebar + 2-column grid layout |
 | **992px – 1200px** | Narrower grid, compact panels |
 | **768px – 992px** | Stacked layout, 2-column right stack |
-| **< 768px** | Mobile: sidebar on top, single column, hidden summary card |
+| **< 768px** | Mobile: sidebar on top, single column layout |
 | **< 480px** | Compact spacing, smaller fonts and chart |
 
 ---
